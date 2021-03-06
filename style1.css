@@ -1,0 +1,35 @@
+body
+{
+background-color:black;
+}
+.container
+{
+	position:relative;
+}
+.center
+{
+position:absolute;
+text-align:center;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+button
+{
+padding:20px 50px;
+outline:none;
+border:2px solid magenta;
+font-size:20px;
+transition:0.2s;
+color:magenta;
+backgrounf:none;
+align:center;
+}
+button:hover{
+color:skyblue;
+transition:0.2s;
+cursor:pointer;
+border-color:blue;
+box-shadow:0px 8px 16px 0px rgba(0,0,255,0.4);
+transform:translateY(-10%);
+}
